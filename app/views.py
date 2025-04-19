@@ -78,7 +78,7 @@ def send_otp(request):
                 send_mail(
                     'OTP',
                     otp,
-                    'kimiaforeducation@gmail.com',  
+                    'YOUR_EMAIL_THAT_YOU_TO_SEND_FROM',  
                     [email], 
                     fail_silently=False,
                 )
